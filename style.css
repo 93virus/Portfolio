@@ -487,3 +487,108 @@ p {
     }
 }
 /* End Keyframes */
+
+
+
+/* Media Query for Tablet */
+@media only screen and (min-width: 768px) {
+    .cta {
+        font-size: 2.5rem;
+        padding: 20px 60px;
+    }
+
+    h1.section-title {
+        font-size: 7rem;
+    }
+
+    /* Hero */
+    #hero h1 {
+        font-size: 7rem;
+    }
+    /* End Hero */
+
+    /* Service Section */
+    #services .service-bottom .service-item {
+        flex-basis: 45%;
+        margin: 2.5%;
+    }
+    /* End Service Section */
+
+    /* Project Section */
+    #projects .project-item {
+        flex-direction: row;
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    #projects .all-projects .project-info {
+        height: 100%;
+    }
+
+    #projects .all-projects .project-img {
+        height: 100%;
+    }
+
+    #projects .project-item:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    /* End Project Section */
+
+    /* About  */
+    #about .about {
+        flex-direction: row;
+    }
+
+    #about .col-left {
+        width: 600px;
+        height: 400px;
+        padding-left: 60px;
+    }
+
+    #about .about .col-left .about-img::after {
+        left: -45px;
+        top: 34px;
+        height: 98%;
+        width: 98%;
+        border: 10px solid crimson;
+    }
+
+    #about .col-right {
+        text-align: left;
+        padding: 30px;
+    }
+
+    #about .col-right h1 {
+        text-align: left;
+    }
+    /* End About */
+
+}
+/* End Media Query for Tablet */
+
+
+/* Media Query for Desktop */
+@media only screen and (min-width: 1200px) {
+    #services .service-top {
+        width: 500px;
+        margin: 0 auto;
+    }
+    
+    #services .service-bottom .service-item {
+        flex-basis: 22%;
+        margin: 1.5%;
+    }
+
+    #contact .contact .contact-items {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #contact .contact .contact-items .contact-item {
+        min-width: 300px;
+        max-height: 250px;
+    }
+}
+/* End Media Query for Desktop */
