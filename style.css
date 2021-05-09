@@ -23,7 +23,6 @@ img {
 
 p {
     font-size: 1.4rem;
-    color: #fff;
     margin-bottom: 10px;
     line-height: 1.9rem;
     font-weight: 300;
@@ -68,6 +67,16 @@ p {
 .cta:hover {
     color: #fff;
     background-color: crimson;
+}
+
+.brand h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.brand h1 span {
+    color: crimson;
 }
 
 
@@ -405,6 +414,52 @@ p {
 /* End of Contact Section */
 
 
+/* Begin of Footer Section */
+#footer {
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+#footer .footer {
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#footer h2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer .social-icon {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#footer .social-item {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 0 5px;
+}
+
+#footer .social-item img {
+    filter: grayscale(1);
+    transition: .3s ease filter;
+}
+
+#footer .social-item img:hover {
+    filter: grayscale(0);
+}
+
+#footer p {
+    color: #fff;
+    font-size: 1.3rem;
+}
+/* End of Footer Section */
 
 
 /* KeyFrames */
